@@ -9,6 +9,6 @@ ls
 
 cd data/data/com.termux/files
 ls
-
-cd usr/bin/python3.11
+echo 11111111111111111111
+cd usr/bin/
 ls
