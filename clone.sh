@@ -4,6 +4,7 @@ git clone https://github.com/termux/termux-packages.git
 cp ./build-python.sh termux-packages/
 cd termux-packages
 
+chmod +x ./build-python.sh
 ./scripts/run-docker.sh ./clean.sh
 ./scripts/run-docker.sh ./build-python.sh
 
