@@ -1,12 +1,12 @@
 #!/bin/bash
 
 chmod +x ./build-python.sh
-ls
+
 git clone https://github.com/termux/termux-packages.git
 cd termux-packages
 
 ./scripts/run-docker.sh ./clean.sh
-./scripts/run-docker.sh ../build-python.sh
+./scripts/run-docker.sh .././build-python.sh
 
 cd data/data/com.termux/files
 ls
