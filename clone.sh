@@ -7,7 +7,7 @@ cd termux-packages
 ./scripts/run-docker.sh ./clean.sh
 ./scripts/run-docker.sh ./build-python.sh
 
-cd debs
+cd debs/
 ls
 echo 11111111111111111111
 cd data/data/com.termux/files
