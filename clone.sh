@@ -1,7 +1,7 @@
 #!/bin/bash
 
 chmod +x ./build-python.sh
-
+ls
 git clone https://github.com/termux/termux-packages.git
 cd termux-packages
 
