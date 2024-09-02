@@ -33,4 +33,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: arm
-          path: 'tmp/python3_11_arm.zip'
+          path: 'tmp'
