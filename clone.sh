@@ -17,5 +17,5 @@ cd data/data/com.termux/files
 cp usr/bin/python3.11 /tmp/libpython_arm.so
 zip --symlinks -r /tmp/python3_11_arm.zip usr/lib usr/etc
 
-cd tmp/
+cd /tmp
 
