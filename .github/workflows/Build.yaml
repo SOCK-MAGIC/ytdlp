@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: run
-        run: ./build.sh
+        run: ./test.sh
 
       - name: Upload build outputs
         uses: actions/upload-artifact@v4
@@ -36,3 +36,5 @@ jobs:
             tmp
             /temp
             /tmp
+            ter
+            termux-packages/output
