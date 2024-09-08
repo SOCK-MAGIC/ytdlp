@@ -2,7 +2,7 @@
 
 git clone --depth 1 https://github.com/termux/termux-packages.git
 
-cp build.sh /termux-packages
+cp build-python /termux-packages
 cp move_accordingto_arch.sh /termux-packages/output
 cp deb-unpackage.sh /termux-packages/output
 
