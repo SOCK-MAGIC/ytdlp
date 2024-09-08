@@ -2,6 +2,10 @@
 
 git clone --depth 1 https://github.com/termux/termux-packages.git && echo "cloned"
 
+cd termux-packages
+mkdir output
+cd ..
+
 echo "copy sh file"
 cp -f build-python.sh -f ~/termux-packages/
 cp -f move_accordingto_arch.sh ~/termux-packages/output/
@@ -9,9 +13,7 @@ cp -f deb-unpackage.sh ~/termux-packages/output/
 
 echo "create dir"
 chmod 777 termux-packages
-cd termux-packages
-ls
-mkdir output
+
 chmod 777 output
 
 echo "run docker1"
