@@ -3,19 +3,20 @@
 git clone --depth 1 https://github.com/termux/termux-packages.git
 
 echo "copy sh file"
-cp build-python.sh /termux-packages
-cp move_accordingto_arch.sh /termux-packages/output
-cp deb-unpackage.sh /termux-packages/output
+cp build-python.sh /termux-packages/
+cp move_accordingto_arch.sh /termux-packages/output/
+cp deb-unpackage.sh /termux-packages/output/
 
 echo "create dir"
 chmod 777 termux-packages
 cd termux-packages
+ls
 mkdir output
 chmod 777 output
 
-echo "run docker"
+echo "run docker1"
 ./scripts/run-docker.sh ./clean.sh
-echo "run docker"
+echo "run docker2"
 ./scripts/run-docker.sh ./build-python.sh
 
 echo "move"
