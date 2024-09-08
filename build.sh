@@ -10,9 +10,9 @@ chmod 777 output
 cd ..
 
 echo "copy sh file"
-cp -f build-python.sh -f /termux-packages/
-cp -f move_accordingto_arch.sh /termux-packages/output/
-cp -f deb-unpackage.sh /termux-packages/output/
+cp ./build-python.sh -f termux-packages/
+cp ./move_accordingto_arch.sh termux-packages/output/
+cp ./deb-unpackage.sh termux-packages/output/
 
 cd termux-packages
 
