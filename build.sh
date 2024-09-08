@@ -1,12 +1,11 @@
 #!/bin/bash
 
-git clone https://github.com/termux/termux-packages.git
+git clone --depth 1 https://github.com/termux/termux-packages.git
 
-ls
 echo "copy sh file"
-cp build-python.sh /termux-packages/
-cp move_accordingto_arch.sh /termux-packages/output/
-cp deb-unpackage.sh /termux-packages/output/
+cp -f build-python.sh -f /termux-packages/
+cp -f move_accordingto_arch.sh /termux-packages/output/
+cp -f deb-unpackage.sh /termux-packages/output/
 
 echo "create dir"
 chmod 777 termux-packages
