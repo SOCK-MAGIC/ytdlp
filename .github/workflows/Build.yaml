@@ -32,8 +32,4 @@ jobs:
         with:
           name: arm
           path: |
-            temp 
-            tmp
-            /temp
-            /tmp
             termux-packages/output
